@@ -21,8 +21,8 @@
   "gridUnits": "ft",
   "primaryTokenAttribute": "HP",
   "secondaryTokenAttribute": "Mana",
-  "url": "",
-  "manifest": "",
+  "url": "https://github.com/CaptainClaquette/FoundryVTT-Aventure-System-JDG",
+  "manifest": "https://github.com/CaptainClaquette/FoundryVTT-Aventure-System-JDG/system.json",
   "download": "",
   "license": "LICENSE.txt"
 }
