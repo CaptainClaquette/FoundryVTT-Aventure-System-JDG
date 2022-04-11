@@ -1,0 +1,67 @@
+{
+  "Actor": {
+    "types": [
+      "character"
+    ],
+    "templates": {
+      "base": {
+        "HP": {
+          "value": 10,
+          "min": 0,
+          "max": 10
+        },
+        "Mana": {
+          "value": 5,
+          "min": 0,
+          "max": 5
+        },
+        "biography": ""
+      }
+    },
+    "character": {
+      "templates": [
+        "base"
+      ],
+      "attributes": {
+        "level": {
+          "value": 1
+        }
+      },
+      "abilities": {
+        "physique": {
+          "value": 70
+        },
+        "social": {
+          "value": 50
+        },
+        "mental": {
+          "value": 70
+        }
+      }
+    }
+  },
+  "Item": {
+    "types": [
+      "item",
+      "feature"
+    ],
+    "templates": {
+      "base": {
+        "description": ""
+      }
+    },
+    "item": {
+      "templates": [
+        "base"
+      ],
+      "quantity": 1,
+      "weight": 0,
+      "formula": "d20 + @str.mod + ceil(@lvl / 2)"
+    },
+    "feature": {
+      "templates": [
+        "base"
+      ]
+    }
+  }
+}

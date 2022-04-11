@@ -1,0 +1,28 @@
+{
+  "name": "aventure",
+  "title": "Aventure JDG",
+  "description": "The Aventure JDG system for FoundryVTT!",
+  "version": "0.0.1",
+  "minimumCoreVersion": "0.8.6",
+  "compatibleCoreVersion": "9",
+  "author": "Hakuryo",
+  "esmodules": ["module/aventure.mjs"],
+  "styles": ["css/aventure.css"],
+  "scripts": [],
+  "packs": [],
+  "languages": [
+    {
+      "lang": "fr",
+      "name": "Français",
+      "path": "lang/fr.json"
+    }
+  ],
+  "gridDistance": 5,
+  "gridUnits": "ft",
+  "primaryTokenAttribute": "HP",
+  "secondaryTokenAttribute": "Mana",
+  "url": "",
+  "manifest": "",
+  "download": "",
+  "license": "LICENSE.txt"
+}
